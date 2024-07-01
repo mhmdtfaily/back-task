@@ -1,0 +1,29 @@
+# Project Name
+
+## Overview
+
+This project is a Spring Boot application that connects to a MySQL database. To run this project, you'll need to have Eclipse with the Spring Tool Suite 4 plugin installed, as well as MySQL Workbench.
+
+## Prerequisites
+
+1. **Eclipse with Spring Tool Suite 4**
+   - Download and install [Eclipse IDE](https://www.eclipse.org/downloads/packages/).
+   - Install the [Spring Tool Suite 4 plugin](https://spring.io/tools).
+
+2. **MySQL Workbench**
+   - Download and install [MySQL Workbench](https://dev.mysql.com/downloads/workbench/).
+
+## Setup Instructions
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/mhmdtfaily/back-task.git
+   cd back-task
+   
+## Configure the Database Connection
+	Open src/main/resources/application.properties.
+	Ensure the following properties are set:
+	spring.datasource.username=root // userName of the localhost
+	spring.datasource.password=root // password of the localhost
+   
+  
